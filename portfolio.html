@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Portfolio</title>
+</head>
+<style>
+  table {
+      width: 100%;
+      border-collapse: collapse; /* Removes double borders */
+  }
+  table, th, td {
+      border: 1px solid black; /* Adds borders to the table, headers, and cells */
+  }
+  th, td {
+      padding: 10px;
+      text-align: left; /* Align text to the left */
+  }
+  th {
+      background-color: #fec9ee; /* Light gray background for header */
+  }
+  
+
+  header {
+            display: flex; /* Flexbox for horizontal alignment */
+            align-items: center; /* Center items vertically */
+            justify-content: center; /* Center items horizontally */
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .header-content {
+            display: flex; /* Flexbox to align image and text */
+            align-items: center; /* Center vertically */
+        }
+
+        .header-content img {
+            border-radius: 50%; /*ake the image circular*/
+            margin-right: 20px; /* Space between image and name */
+            width: 110px; /* Set the width of the image */
+            height:125px; /* Set the height of the image */
+            border: 1px solid black;
+        }
+
+        .header-content h1 {
+            margin: 0;
+            font-size: 2.5em; /* Adjust the font size */
+        }
+
+        .header-content h2 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #555; /* Subtle gray color for the subtitle */
+        }
+</style>
+
+<body style="color:rgb(0, 0, 0);">
+  
+   <header>
+    <div class="header-content">
+      <!-- Add your photo -->
+      <img src="C:\Users\Saima\OneDrive\Desktop\web dev prac\web-dev-prac\WhatsApp Image 2025-01-04 at 00.39.08_36a86bcd.jpg" alt="Saima's Photo">
+      <div>
+          <!-- Name and designation -->
+          <h1>SAIMA</h1>
+          <h2>Software Developer</h2>
+      </div>
+  </div>
+  </header>
+  
+    
+    
+   <!-- <h1 style="text-align: center;">SAIMA</h1>
+   <h2 style="text-align: center;">Software Developer</h2>
+   
+   <hr width="100%" size="2" color="black"> -->
+  
+      <style>
+          /* Basic styling for the navigation bar */
+          nav {
+              background-color: #a9126f; /* Dark background */
+              overflow: hidden; /* Clear floats */
+          }
+          nav ul {
+              list-style-type: none; /* Remove default bullets */
+              margin: 0; /* Remove default margin */
+              padding: 0; /* Remove default padding */
+              display: flex; /* Display items in a row */
+              justify-content: center;
+          }
+          nav ul li {
+              margin: 0;
+              padding: 0;
+          }
+          nav ul li a {
+              display: block;
+              color: white; /* White text */
+              text-align: center;
+              padding: 14px 20px; /* Spacing inside the links */
+              text-decoration: none; /* Remove underline */
+          }
+          nav ul li a:hover {
+              background-color: #eba4e8; /* Change background on hover */
+          } 
+          </style>
+          <nav>
+            <ul>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#Location">Location</a></li>
+            
+            </ul>
+        </nav>
+        
+    <style>
+        section {
+            border: 1px solid #0d0d0d;
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #f0f3ed;
+        }
+        h2 {
+            color: #1445e5;
+        }
+        h3{
+          text-size-adjust: small;
+          color:rgb(11, 11, 1)
+        }
+    </style>
+    <section id="About">
+        <h2>About</h2>
+        <p>Hi, I'm Saima, a tech student and problem solver with a background in  data structures and algorithms, full-stack development. <br>I’ve recently completed a DSA course by Coding Blocks, which has strengthened my ability to write efficient, scalable code.
+
+          I love working on projects that combine creativity and functionality, such as building  portfolio websites, sustainable tech solutions, or AI-driven applications. My ultimate goal is to leverage technology to solve real-world problems and create positive change.
+           <br> When I’m not working on projects or learning something new, I enjoy  reading psychological thrillers, discovering new and underrated music or creating miniature paintings & sketches. My journey so far has been fueled by curiosity, creativity, and a desire to make an impact. Let’s connect and create something amazing together!</p>
+    </section>
+
+    <section id="Skills">
+        <h2>Skills</h2>
+        <table>
+          <tr>
+            <th>Skill Name</th>
+            <th>Experience</th>    
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>2 years</td>
+        </tr>
+        <tr>
+          <td>Problem Solving</td>
+          <td>2 years</td>
+      </tr>
+      <tr>
+        <td>Web developement</td>
+        <td>1 year</td>
+    </tr>
+    <tr>
+      <td>Designing</td>
+      <td>2 years</td>
+   </tr>
+   <tr>
+     <td>SQL</td>
+     <td>2 years</td>
+   </tr>
+        </table>
+        
+    </section>
+
+    <section id="Projects">
+        <h2>Projects</h2>
+        <section>
+          <h1>Misarticulation Project</h1>
+          <li>Stack Used : HTML, CSS, Javascript</li>
+          <li>Built a website to help children suffering from misarticulation. It provides worksheets, youtube links, therapists contacts.</li>
+          <li><a href="https://github.com/anshita2/my_speech">Project Link</a></li>
+        </section>
+        <section>
+          <h1>Retail Order Analysis</h1>
+          <li>Stack Used : SQL, Python</li>
+          <li> It is a robust exploration of data analytics, designed to extract insights and trends from complex datasets. I got to understand the use of Jupyter Notebooks for Clear Workflow Presentation.</li>
+          <li><a href="https://github.com/Saima113/analysis-proj">Project Link</a></li>
+        </section>
+          
+    </section>
+
+    <section id="Contact">
+      <h2>Contact</h2>
+      <p> <li>Here's my GitHub profile :  <a href="https://github.com/Saima113">GitHub</a></li>
+          <li>Here's my E-mail id : <a href="mailto:akramsaima459@gmail.com">E-mail </a></li>
+          <li>Here's my LinkedIn profile :  <a href="https://www.linkedin.com/in/saima-42179028b/">LinkedIn </a></li>
+      </p>
+
+    </section>
+    <section id="Location">
+    <h2>Location</h2>
+   
+        <img src="C:\Users\Saima\OneDrive\Desktop\web dev prac\web-dev-prac\Screenshot 2025-01-03 210449.png" alt="map image" width="200" height="200"><br>
+        <a href="https://maps.app.goo.gl/RFHpEErk4JmayKGP9">Map to the college</a> 
+      
+    </section>
+  
+  </header>
+  <footer>
+   <section>
+    
+    <h2>My Resume</h2>
+    <a href="file:///C:/Users/Saima/Downloads/Resume.pdf">Link to the resume</a>
+    
+   </section>
+  </footer>
+</body>
+</html>
